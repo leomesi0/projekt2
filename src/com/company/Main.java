@@ -10,7 +10,9 @@ public class Main {
 
         Human Ja = new Human("Jakub","Zejer","IPhone","dog");
 
-        System.out.println("Zwierzak nazywa się Denali");
+        Car myCar = new Car("A6","Audi",2012,30000);
+
+
 
 
 
