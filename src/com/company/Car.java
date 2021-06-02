@@ -1,16 +1,15 @@
 package com.company;
 
 public class Car {
-    public String model;
     public String producer;
-    public Integer rokprodukcji;
-    public Integer cena;
+    public String model;
+    public Integer year;
+    public Double value;
 
-    public Car (String model,String producer,Integer rokprodukcji,Integer cena){
-        this.model = model;
+    public Car (String producer, String model,Integer year,Double value){
         this.producer = producer;
-        this.rokprodukcji = rokprodukcji;
-        this.cena = cena;
+        this.model = model;
+        this.year = year;
+        this.value = value;
     }
-
 }
