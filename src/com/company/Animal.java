@@ -17,7 +17,7 @@ public class Animal {
         if(weight>0){
             weight += 1;
             System.out.println("Thanks");
-            System.out.println("My weight is"+weight);
+            System.out.println("Weight is"+weight);
         }
     else{
         System.out.println("Food wont make me alive");
